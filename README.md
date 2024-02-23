@@ -31,11 +31,14 @@ for i in range(len(X)):
 M=Nume/Deno
 C=Ymean-(M*Xmean)
 print("Slope : ",M)
-print("Y-intercept : ",C)
+print("Y-intercept: ",C)
 Ypred=(M*X)+C
-print("Predicted Values :",Ypred)
+print("Predicted Values:",Ypred)
 plt.scatter(X,Y)
-plt.plot(X,Ypred)
+plt.plot(X,Ypred,color='Red')
+plt.title("Univariate Linear Regression")
+plt.xlabel("X values")
+plt.ylabel("Y values")
 plt.show()
 ```
 Developed By: **ROHIT JAIN D** <br>
@@ -44,12 +47,15 @@ Register No: **212222230120**
 <td>
   
 ### Output:
-Slope : 1.537302371541502  
-Y-intercept: 2.8370580808080827  
-Predicted Values: [ 8.37134662 10.21610946 13.90563516 13.44444444 19.28619346 12.21460255
- 14.98174682 17.44143061 11.13849089]
+[8,2,11,6,5,4,12,9,6,1]  
+[3,10,3,6,8,12,1,4,9,14]    
+Slope :  -1.1064189189189189      
+Y-intercept:  14.08108108108108  
+Predicted Values: [ 5.22972973 11.86824324  1.91047297  7.44256757  8.54898649  9.65540541
+  0.80405405  4.12331081  7.44256757 12.97466216]  
+  
+![download](https://github.com/ROHITJAIND/EX-01-BestFitLine-using-LeastSquaresMethod/assets/118707073/70dcf735-82d9-4e80-a548-981286ae8ccd)
 
-![download](https://github.com/ROHITJAIND/EX-01-BestFitLine-using-LeastSquaresMethod/assets/118707073/cd32e753-adf8-4b3f-8707-c0d771bf94ca)
 </td>
 </tr> 
 </table>
