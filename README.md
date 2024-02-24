@@ -5,12 +5,27 @@ To implement univariate Linear Regression to fit a straight line using least squ
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 ### Algorithm:
+<table>
+<tr>
+<td width=70%>
+
 1. Get the independent variable X and dependent variable Y.
 2. Calculate the mean of the X -values and the mean of the Y -values.
-3. Find the slope m of the line of best fit using the formula.<img width=30% height=7% alt="image" src="https://user-images.githubusercontent.com/93026020/192078527-b3b5ee3e-992f-46c4-865b-3b7ce4ac54ad.png">
-4. Compute the y -intercept of the line by using the formula:<img width="148" alt="image" src="https://user-images.githubusercontent.com/93026020/192078545-79d70b90-7e9d-4b85-9f8b-9d7548a4c5a4.png">
+3. Find the slope m of the line of best fit using the formula.
+4. Compute the y -intercept of the line by using the formula.
 5. Use the slope m and the y -intercept to form the equation of the line.
 6. Obtain the straight line equation Y=mX+b and plot the scatterplot.
+
+</td> 
+<td>
+
+<img alt="image" src="https://user-images.githubusercontent.com/93026020/192078527-b3b5ee3e-992f-46c4-865b-3b7ce4ac54ad.png"> <br>
+<img height=80% width=60% alt="image" src="https://user-images.githubusercontent.com/93026020/192078545-79d70b90-7e9d-4b85-9f8b-9d7548a4c5a4.png">
+</td>
+</tr> 
+</table>
+
+
 
 <table>
 <tr>
@@ -41,6 +56,8 @@ plt.xlabel("X values")
 plt.ylabel("Y values")
 plt.show()
 ```
+<br>
+
 Developed By: **ROHIT JAIN D** <br>
 Register No: **212222230120**
 </td> 
